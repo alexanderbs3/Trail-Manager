@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Logo/Imagem Principal (OBRIGATÓRIO) -->
+        <ImageView
+            android:id="@+id/imgCreditsLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="Logo Trail Manager"
+            android:layout_marginBottom="16dp"
+            android:padding="20dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:elevation="4dp" />
+
+        <!-- Nome do Aplicativo -->
+        <TextView
+            android:id="@+id/tvCreditsAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trail Manager"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Versão -->
+        <TextView
+            android:id="@+id/tvCreditsVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Versão 1.0"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Card: Sobre o Aplicativo -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sobre"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@android:drawable/ic_dialog_info"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tvCreditsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trail Manager é um aplicativo completo para registro e gerenciamento de trilhas e caminhadas."
+                    android:textSize="14sp"
+                    android:textColor="#212121"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Card: Desenvolvedor -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desenvolvedor"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@android:drawable/ic_menu_myplaces"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tvCreditsDeveloper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Desenvolvido por: [Seu Nome]\nCurso: [Seu Curso]\nInstituição: [Sua Instituição]\nAno: 2025"
+                    android:textSize="14sp"
+                    android:textColor="#212121"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Card: Funcionalidades -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Funcionalidades"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@android:drawable/ic_menu_agenda"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tvCreditsFeatures"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="✓ Rastreamento GPS em tempo real\n✓ Cálculo de distância e velocidade\n✓ Estimativa de gasto calórico\n✓ Visualização em mapa\n✓ Mapas vetoriais e satélite\n✓ Exportação de dados"
+                    android:textSize="14sp"
+                    android:textColor="#212121"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Card: Tecnologias -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tecnologias Utilizadas"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@android:drawable/ic_menu_preferences"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/tvCreditsTechnologies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Java + Android SDK\n• Google Maps SDK\n• Google Play Services Location\n• SQLite Database\n• Material Components\n• RecyclerView"
+                    android:textSize="14sp"
+                    android:textColor="#212121"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Rodapé com Copyright -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© 2025 Trail Manager"
+                android:textSize="12sp"
+                android:textColor="#757575"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Todos os direitos reservados"
+                android:textSize="11sp"
+                android:textColor="#757575"
+                android:gravity="center"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desenvolvido para fins educacionais"
+                android:textSize="10sp"
+                android:textColor="#757575"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

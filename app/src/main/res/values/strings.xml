@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trail Manager</string>
+
+    <!-- Main Screen -->
+    <string name="register_trail">Registrar Trilha</string>
+    <string name="view_trails">Consultar Trilhas</string>
+    <string name="settings">Configurações</string>
+    <string name="credits">Créditos</string>
+
+    <!-- Register Trail -->
+    <string name="start">Iniciar</string>
+    <string name="pause">Pausar</string>
+    <string name="continue_trail">Continuar</string>
+    <string name="finish">Finalizar</string>
+    <string name="speed">Velocidade</string>
+    <string name="max_speed">Vel. Máxima</string>
+    <string name="distance">Distância</string>
+    <string name="calories">Calorias</string>
+    <string name="chronometer_format">%s</string>
+
+    <!-- Configuration -->
+    <string name="user_data">Dados do Usuário</string>
+    <string name="map_settings">Configurações do Mapa</string>
+    <string name="weight_hint">Peso (kg)</string>
+    <string name="height_hint">Altura (cm)</string>
+    <string name="gender">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Feminino</string>
+    <string name="birthdate">Data de Nascimento</string>
+    <string name="select_date">Selecionar Data</string>
+    <string name="map_type">Tipo de Mapa</string>
+    <string name="map_normal">Vetorial (padrão)</string>
+    <string name="map_satellite">Satélite</string>
+    <string name="navigation_mode">Modo de Navegação</string>
+    <string name="nav_north_up">North Up (padrão)</string>
+    <string name="nav_course_up">Course Up</string>
+    <string name="save_config">Salvar Configurações</string>
+
+    <!-- View Trails -->
+    <string name="my_trails">Minhas Trilhas</string>
+    <string name="no_trails">Nenhuma trilha registrada</string>
+    <string name="start_first_trail">Comece registrando sua primeira trilha!</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="share">Compartilhar</string>
+
+    <!-- Menu -->
+    <string name="action_delete_all">Excluir Todas</string>
+    <string name="action_delete_range">Excluir por Período</string>
+
+    <!-- Dialog -->
+    <string name="dialog_edit_title">Editar Nome da Trilha</string>
+    <string name="dialog_delete_title">Excluir Trilha</string>
+    <string name="dialog_delete_message">Deseja realmente excluir esta trilha?</string>
+    <string name="dialog_delete_all_title">Excluir Todas as Trilhas</string>
+    <string name="dialog_delete_all_message">Deseja realmente excluir TODAS as trilhas? Esta ação não pode ser desfeita.</string>
+    <string name="dialog_finish_title">Finalizar Trilha</string>
+    <string name="dialog_finish_message">Deseja finalizar e salvar esta trilha?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="save">Salvar</string>
+
+    <!-- Messages -->
+    <string name="msg_config_saved">Configurações salvas com sucesso!</string>
+    <string name="msg_trail_saved">Trilha salva com sucesso!</string>
+    <string name="msg_trail_deleted">Trilha excluída!</string>
+    <string name="msg_name_updated">Nome atualizado!</string>
+    <string name="msg_permissions_required">Permissões são necessárias para o funcionamento do app!</string>
+    <string name="msg_configure_first">Por favor, configure seus dados primeiro!</string>
+    <string name="msg_invalid_weight">Peso inválido (1-300 kg)</string>
+    <string name="msg_invalid_height">Altura inválida (1-250 cm)</string>
+    <string name="msg_select_birthdate">Por favor, selecione sua data de nascimento</string>
+
+    <!-- Share -->
+    <string name="share_format_title">Escolha o formato</string>
+    <string name="share_via">Compartilhar trilha via</string>
+
+    <!-- Trail Detail -->
+    <string name="trail_details">Detalhes da Trilha</string>
+    <string name="duration">Duração</string>
+    <string name="avg_speed">Vel. Média</string>
+    <string name="gps_points">Pontos GPS</string>
+
+    <!-- Credits -->
+    <string name="about">Sobre</string>
+    <string name="developer">Desenvolvedor</string>
+    <string name="features">Funcionalidades</string>
+    <string name="technologies">Tecnologias Utilizadas</string>
+    <string name="version">Versão</string>
+</resources>
